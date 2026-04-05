@@ -1,5 +1,5 @@
 # 🛡️ Hybrid Intrusion Detection System
-### XGBoost + Isolation Forest | FastAPI + React | Final Year Major Project
+### XGBoost + Isolation Forest | FastAPI + React | 
 
 ---
 
@@ -316,18 +316,7 @@ The dashboard renders:
 | admin    | admin123 | admin (all access + logs) |
 | analyst  | analyst123 | analyst (detect + view) |
 
-*Create these via POST /auth/register or the Register page.*
 
----
-
-## 🎓 Academic Notes
-
-This project demonstrates:
-1. **Ensemble learning** — combining unsupervised (IF) with supervised (XGBoost)
-2. **Explainable AI** — SHAP values for model interpretability
-3. **Full-stack ML deployment** — FastAPI + React + PostgreSQL
-4. **Security engineering** — JWT RBAC, bcrypt, CORS
-5. **Data engineering** — CICIDS feature preprocessing pipeline
 
 **References**
 - CICIDS 2017: Sharafaldin et al., *Toward Generating a New Intrusion Detection Dataset*, ICISSP 2018
