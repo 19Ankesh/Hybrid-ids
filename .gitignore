@@ -23,8 +23,8 @@ npm-debug.log*
 .DS_Store
 Thumbs.db
 
-# ML artifacts (retrain with ml/training/train_models.py)
-models/*.pkl
+# Retrain with: python ml/training/train_models.py
+# Root models/*.pkl are committed so deploys (e.g. Railway) get working inference.
 ml/models/*.pkl
 
 # Datasets (optional; large)
